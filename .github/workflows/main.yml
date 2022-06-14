@@ -28,6 +28,9 @@ jobs:
       
       - name: continuous
         run: echo 'workflow lancé'
+        
+      - name: integration
+        run: ls
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
